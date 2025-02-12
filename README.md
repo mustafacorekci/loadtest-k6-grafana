@@ -151,7 +151,3 @@ To visualize the metrics from k6, create a new dashboard in Grafana and use the 
 
 - **k6 data not reaching Prometheus**: Ensure that the **`remote_write`** URL is correctly configured, and that you're running k6 with the right output flag (`--out experimental-prometheus-rw`).
 - **No data in Grafana dashboard**: Double-check that **Prometheus** is correctly configured as the data source in **Grafana**, and that you're using the correct Prometheus queries to fetch k6 metrics.
-
----
-
-This **README** file provides all the necessary steps to set up the project, run the tests, and visualize the results. Let me know if you need further assistance!
